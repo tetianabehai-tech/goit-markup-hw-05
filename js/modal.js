@@ -19,13 +19,13 @@ function closeModal() {
 openModalButton.addEventListener('click', openModal);
 closeModalButton.addEventListener('click', closeModal);
 
-modalBackdrop.addEventListener('click', event => {
+modalBackdrop.addEventListener('click', (event) => {
   if (event.target === modalBackdrop) {
     closeModal();
   }
 });
 
-document.addEventListener('keydown', event => {
+document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && modalBackdrop.classList.contains('is-open')) {
     closeModal();
   }
