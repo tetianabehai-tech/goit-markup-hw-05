@@ -119,9 +119,18 @@
     gap: 32px 24px;
   }
 
-  .feature-item,
-  .team-card {
+  .feature-item {
     width: calc((100% - 24px) / 2);
+  }
+
+  .team-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-card {
+    width: 100%;
+    max-width: 264px;
   }
 
   .feature-title {
