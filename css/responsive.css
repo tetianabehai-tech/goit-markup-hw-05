@@ -1,0 +1,238 @@
+@media (min-width: 768px) and (max-width: 1157px) {
+  .section {
+    padding: 96px 0;
+  }
+
+  .header-logo {
+    margin-right: 40px;
+  }
+
+  .nav-list,
+  .contacts-list {
+    gap: 20px;
+  }
+
+  .nav-link,
+  .contact-link {
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 160px 0;
+  }
+
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .features-list,
+  .team-list {
+    flex-wrap: wrap;
+  }
+
+  .feature-item,
+  .team-card {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .portfolio-card {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .footer-info,
+  .footer-socials {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 428px;
+  }
+
+  .section {
+    padding: 80px 0;
+  }
+
+  .section-title {
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+
+  .header-container {
+    flex-wrap: wrap;
+    row-gap: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .header-logo {
+    margin-right: auto;
+  }
+
+  .main-nav {
+    margin-right: 0;
+  }
+
+  .nav-list {
+    gap: 12px;
+  }
+
+  .nav-link {
+    padding: 8px 0;
+    font-size: 14px;
+  }
+
+  .contacts {
+    width: 100%;
+  }
+
+  .contacts-list {
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .contact-link {
+    padding: 4px 0;
+    font-size: 12px;
+  }
+
+  .hero {
+    padding: 112px 0;
+  }
+
+  .hero-title {
+    max-width: 360px;
+    margin-bottom: 48px;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+
+  .features-list,
+  .team-list {
+    flex-wrap: wrap;
+    gap: 32px 24px;
+  }
+
+  .feature-item,
+  .team-card {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .feature-title {
+    font-size: 18px;
+  }
+
+  .feature-text {
+    font-size: 14px;
+  }
+
+  .team-card img {
+    width: 100%;
+  }
+
+  .team-info {
+    padding: 24px 8px;
+  }
+
+  .team-card .social-list {
+    gap: 8px;
+  }
+
+  .portfolio-list {
+    row-gap: 32px;
+  }
+
+  .portfolio-card {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .portfolio-info {
+    padding: 24px 16px;
+  }
+
+  .page-footer {
+    padding: 80px 0;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .footer-info,
+  .footer-socials {
+    margin-right: 0;
+  }
+
+  .footer-info,
+  .footer-socials,
+  .footer-subscribe {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-text {
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .footer-subscribe .footer-social-title {
+    text-align: center;
+  }
+
+  .subscribe-form {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .subscribe-input {
+    width: min(100%, 264px);
+  }
+
+  .backdrop {
+    align-items: flex-start;
+  }
+
+  .modal {
+    margin: auto;
+  }
+}
+
+@media (max-width: 359px) {
+  .nav-list {
+    gap: 8px;
+  }
+
+  .nav-link {
+    font-size: 12px;
+  }
+
+  .contact-link {
+    font-size: 11px;
+  }
+
+  .feature-item,
+  .team-card {
+    width: 100%;
+  }
+}
+
+@media (max-height: 650px) {
+  .backdrop {
+    align-items: flex-start;
+  }
+
+  .modal {
+    margin: auto;
+  }
+}
